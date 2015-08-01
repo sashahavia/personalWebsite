@@ -49,6 +49,16 @@ nav ul li a:hover{
 	color: black;
 }
 
+#socialIcons{
+    position:fixed;
+    
+    width:66px;
+    float: right;
+    height:34px;
+    right:20px;
+    top:10px;
+}
+
 #slider{
 	background-image: url(../images/slider_bg.jpg);
     background-repeat: no-repeat;
@@ -78,12 +88,49 @@ nav ul li a:hover{
 
 #mainArea{
 	padding-top: 75px;
-	width: 1200px;
+	width: 1100px;
 	margin: 0 auto;
-
-
 }
 
+#col1{
+	color: #515151;
+	width: 30%;
+	margin-left: 50px;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#col2{
+ 	color: #515151;
+	width: 30%;
+	margin-left: 25px;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#col3{
+	color: #515151;
+	width: 30%;
+	margin-left: 25px;
+	float: left;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.text{
+	color: #000;
+	padding-bottom: 25px;
+}
+.btn{
+	border: solid 1px #515151;
+	padding: 10px;
+	font-size: 10pt;
+	color: #515151;	
+	text-decoration: none;
+
+}
 
 .clearfix{
 	clear: both;
