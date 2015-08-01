@@ -5,54 +5,43 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div id="container">
-		<div id="banner">
-			<div id="title">Contact</div>
-			<div id="smpanel"></div>
-		</div>	
-	
-		<nav>
-			<ul>
-				<a href="index.html"><li>Home</li></a>
-				<a href="about.html"><li>About</li></a>
-				<a href="portfolio.html"><li>Portfolio</li></a>
-				<a href="contact.html"><li>Contact</li></a>
-			</ul>
-		</nav>
-
-		<section id="sidebar"></section>
-		<section id="mainArea">
-			<form action="process.html" method="get">
-				<input type="text" placeholder="Type your email"/> 
-				<br>
-				<input type="password" placeholder="Type in your Password"/>
-				<br>
-				<select>
-					<option value="-">Select a Day</option>
-					<option value="t">Tuesday</option>
-					<option value="th">Thursday</option>
-				</select>
-				<br>
-				<input type="checkbox" name="topic"/>HTML
-				<input type="checkbox" name="topic"/>CSS
-				<input type="checkbox" name="topic"/>JS
-				<input type="checkbox" name="topic"/>Bash
-				<br>
-					<input type="radio" name="class"/> Front End
-					<input type="radio" name="class"/> Back End
-					<input type="radio" name="class"/> UI/UX End
-					<br>
-					<textarea cols="10" rows="10"></textarea>
-					<br>
-					<input type="reset" value="RESET"/>
-					<input type="submit" value="SUBMIT"/>
-					<input type="button" value="!"/>
-			</form>
-		</section>
-
-		<footer>
-			Copyright &copy; 2015
-		</footer>
+	<nav>
+		<ul>
+			<a href="index.html"><li>Home</li></a>
+			<a href="about.html"><li>About</li></a>
+			<a href="portfolio.html"><li>Portfolio</li></a>
+			<a href="contact.html"><li>Contact</li></a>
+		</ul>
+	</nav>
+	<div id="socialIcons">
+		<a href="https://www.facebook.com/aleksandra.yatsevich" target="_blank" style="float:left;"><img src="images/facebook.jpg"></a>
+		<a href="https://www.linkedin.com/in/aliaksandrahavia" target="_blank" style="float:right;"><img src="images/linkedin.jpg"></a>
 	</div>
+
+	<section id="mainArea">
+		<h2>Contact</h2>
+		<form action="process.html" method="get" class="contact_form">
+			<h1>Your name:</h1>
+			<input type="name" placeholder="Type in your name"/>
+			<br>
+			<h1>Your email:</h1>
+			<input type="email" placeholder="Type your email"/> 
+			<br>
+			<h1>Subject</h1>
+			<input type="checkbox" name="topic"/>Graphic
+			<input type="checkbox" name="topic"/>Web Development
+			<input type="checkbox" name="topic"/>iOS Development
+			<br>
+			<h1>Message:</h1>
+			<textarea cols="30" rows="30"></textarea>
+			<br>
+			<input type="reset" value="RESET"/>
+			<input type="submit" value="SUBMIT"/>
+		</form>
+	</section>
+
+	<footer>
+		Copyright &copy; 2015
+	</footer>	
 </body>
 </html>
