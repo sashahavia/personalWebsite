@@ -1,30 +1,26 @@
 body{
-	background: black;
-	color: white;
+	color: black;
+	width: 100%;
 	padding: 0px;
 	margin: 0px;
+	font-family: 'Raleway', sans-serif;
 }
 
-#container{
-	border: solid 1px white;
-	width: 960px;
-	margin: 0 auto;
-	height: 100vh;
-}
-
-#banner{
-	height: 100px;
-}
-#title{
-
-}
-#smpanel{}
 nav{
-
+	width: 100%;
+	height: 50px;
+	background: #515151;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
 }
 
 nav ul{
-	border: solid 1px white;
+	border: solid 0px white;
+	width: 1200px;
+	margin: 0 auto;
 	list-style: none;
 	padding: 0px;
 }
@@ -32,12 +28,12 @@ nav ul{
 nav ul li{
 	border: solid 0px white;
 	display: inline-block;
-	width: 24.5%;
+	width: auto;
+	margin-left: 20px;
 	text-align: center;
-	height: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 14pt;
+	padding: 15px;
+	font-size: 12pt;
+	font-weight: 200;
 }
 
 nav ul li:hover{
@@ -45,9 +41,62 @@ nav ul li:hover{
 	color: black;
 }
 
+nav ul a{
+	color: white;
+}
+
+nav ul li a:hover{
+	color: black;
+}
+
+#slider{
+	background-image: url(../images/slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 100%;
+    height: 469px;
+
+}
+#title{
+	font-size: 18pt;
+	text-align: center;
+	text-transform: uppercase;
+	color: #515151;
+	margin-top: 50px;
+	padding-top: 100px;
+}
+#title a{
+	text-decoration: none;
+}
+.button{
+	background: #515151;
+	padding: 15px;
+	font-size: 14pt;
+	color: white;	
+}
+
+#mainArea{
+	padding-top: 75px;
+	width: 1200px;
+	margin: 0 auto;
 
 
+}
 
+
+.clearfix{
+	clear: both;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	background: #515151;
+	text-align: center;
+	font-size: 10pt;
+	font-weight: 100;
+}
 
 
 
