@@ -132,7 +132,10 @@ nav ul li a:hover{
 .contact_form input[type="checkbox"]{
 	border: solid 1px #515151;
     color: #515151;
+    height: 15px;
+    width: 15px;
     margin-left: 20px;
+
 }
 
 .contact_form textarea{
@@ -156,6 +159,36 @@ nav ul li a:hover{
 }
 
 /* Contact Page */
+
+/* ABout */
+
+#about{
+	width: 1100px;
+	padding: 50px;
+	color: #000;
+
+}
+
+#about h2{
+	display: block;
+	margin-top: 50px;
+	color: #515151;
+	font-size: 18pt;
+	font-weight: 600;
+
+}
+
+#about span{
+	font-weight: 500;
+	font-size: 14pt;
+}
+
+#about p{
+	font-size: 12pt;
+	line-height: 30px;
+}
+
+/* ABout */
 
 /* Homepage */
 #col1{
