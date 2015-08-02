@@ -5,6 +5,14 @@ body{
 	margin: 0px;
 	font-family: 'Raleway', sans-serif;
 }
+
+h2{
+	text-align: center;
+	display: block;
+	font-size: 18pt;
+	font-weight: 600;
+	padding-bottom: 0px;
+}
 /* Navigation */
 nav{
 	width: 100%;
@@ -95,14 +103,6 @@ nav ul li a:hover{
 	margin: 0 auto;
 }
 
-#mainArea h2{
-	text-align: center;
-	display: block;
-	font-size: 18pt;
-	font-weight: 600;
-	padding-bottom: 0px;
-}
-
 .contact_form {
     margin-left: auto;
     margin-right: auto;
@@ -160,7 +160,35 @@ nav ul li a:hover{
 
 /* Contact Page */
 
-/* ABout */
+/* Gallery */
+#mainArea2{
+	padding-top: 75px;
+	width: 1100px;
+	color: #515151;
+	margin: 0 auto;
+}
+#sideBar{
+	width: 26%;
+	float: left;
+	padding: 10px;
+}
+
+#mainContent{
+	width:70%;
+	float:right;
+	margin: 0px;
+	padding: 10px;
+}
+
+#project{
+	width: 31%;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+
+}
+/* Gallery */
+/* About */
 
 #about{
 	width: 1100px;
@@ -187,8 +215,7 @@ nav ul li a:hover{
 	font-size: 12pt;
 	line-height: 30px;
 }
-
-/* ABout */
+/* About */
 
 /* Homepage */
 #col1{
