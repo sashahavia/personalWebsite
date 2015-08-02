@@ -181,11 +181,16 @@ nav ul li a:hover{
 }
 
 #project{
-	width: 31%;
+	width: 30%;
 	float: left;
 	margin-left: 15px;
 	margin-bottom: 20px;
-
+	text-align: center;
+	color: white;
+	background: #515151;
+	padding: 5px;
+	font-weight: 100;
+	font-size: 12pt;
 }
 /* Gallery */
 /* About */
